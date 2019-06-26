@@ -32,8 +32,8 @@ thinkplot(pmf, linewidth=0.1)
 thinkplot(cdf)
 ```
 
-![Pmf](exercise_4_1_pmf.png)
+![Pmf](exercise_4_2_pmf.png)
 
-![Cdf](exercise_4_1_cdf.png)
+![Cdf](exercise_4_2_cdf.png)
 
 The distributions are indeed uniform!
