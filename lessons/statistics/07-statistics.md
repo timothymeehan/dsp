@@ -86,7 +86,29 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Bayes's theorem paraphrased says that the posterior is proportional to the likelihood times the prior (normalized by the marginal likelihood). Or, the probability of the hypothesis being true given the evidence equals the probability of the evidence given the hypothesis is true, times the probability of the hypothesis, normalized by the probability of the evidence. Or, in symbols:
+
+P(H|E) = (P(E|H)P(H)) / P(E)
+
+So we need to figure out the likelihood, prior, and marginal likelihood to compute the posterior probability that Elvis's twin brother was his identical twin.
+
+So:
+H = Elvis's twin brother was his identical twin brother
+E = Elvis had a twin brother
+
+P(identical twin brother | twin brother) = (P(twin brother | identical twin brother)P(identical twin brother)) / P(twin brother)
+
+Likelihood:
+  P(E|H) = 1
+
+Prior:
+  P(H) = 1/2 * 1/300 (assume half of identical twin pairs are male-male)
+  
+Marginal Likelihood:
+  P(E) = 1/4 * 1/125 + 1/2 * 1/300 (assume a quarter of fraternal twin pairs are male-male, and same assumption as above re: identical twins)
+  
+Posterior:
+  P(H|E) = (1/2 * 1/300) / (1/4 * 125 + 1/2 * 1/300) = 5/11
 
 ---
 
