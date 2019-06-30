@@ -115,7 +115,11 @@ Posterior:
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Frequentist and Bayesian statistics answer different, complementary questions. Frequentist statistics answers the question: how likely is this data assuming the effect I'm interested in does not exist, or in other words, that the null hypothesis is true? The answer is a statement about data conditional on a hypothesis. Bayesian statsitics answers the question: how likely is this hypothesis to be true given what I observe in my data?
+
+Besides the difference in the nature of these questions, the two differ in their incorporation of prior knowledge. Frequentist statistics cannot incorporate prior knowledge regarding a hypothesis (even though such knowledge is brought to bear outside of the statistical framework proper, i.e. in interpreting a study). Bayesian statistics requires a prior probability of a hypothesis being true (the prior), as well as a probability of data occurring (the likelihood and the marginal likelihood). In particular, the benefit of the prior is in incorporating contextual knowledge directly into the computation of the posterior, but the drawback is that priors are subjective with no fixed method of derivation, and therefore a potential source of disagreement.
+
+Finally, the takeaways from each differ in their interpretation. Frequentist statistics are so named because their main takeaway, the p-value, is best interpreted as a frequency, or proportion of outcomes over a large number of hypothetical repeats of an experiment. The posterior probability in Bayesian statistics is best interpreted as a degree of belief in the truth of a statement. This is a subtle difference but important for interpretation of each procedure.
 
 ---
 
